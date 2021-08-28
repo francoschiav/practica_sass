@@ -1,0 +1,105 @@
+// MAIN
+
+.hero{
+    background-color: $color-secundario;
+    color: $blanco;
+    margin-top: 5rem;
+    padding: 3rem 2rem;  
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__title{
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+        background-color: $color-primario;
+    }
+
+    &__img {
+       margin-bottom: 3rem; 
+    }
+    
+    &__text{
+        text-align: justify;
+    }
+}
+
+.grilla{
+    &__contenedor{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5rem;
+        align-items: center;
+        margin: 5rem 0;
+    }
+    &__title{
+        color:$color-secundario;
+        padding: 3rem 0;
+    }
+
+    & {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:$blanco;
+        background-color: $color-primario;
+        padding: 1rem 2rem;
+        border-radius: 15px;
+
+        &--imagen{
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        &--texto{
+            text-transform: uppercase;
+            margin-top: 2rem;
+        }
+
+    }
+}
+
+.informacion{
+
+    & {
+        padding: 3rem;
+    }
+
+    &__titulo{
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+        background-color: $color-primario;
+    }
+
+    &__texto{
+        text-align: justify;
+        color: $blanco;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+.seccionPaises{
+    & {
+        padding: 1rem 5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__lista{
+        background-color: $color-primario;
+
+        &--item {
+            color: $blanco;
+                }
+    }
+}

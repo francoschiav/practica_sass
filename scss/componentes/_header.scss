@@ -1,0 +1,24 @@
+//header
+
+.headerSass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-primario;
+    color: $blanco;
+
+    .headerSass__logo{
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
+
+    .headerSass__links{
+        display: flex;
+        gap: 1rem;
+    }
+    .headerSass__link{
+        color: $blanco;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+}
